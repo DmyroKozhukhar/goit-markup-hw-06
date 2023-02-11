@@ -654,7 +654,7 @@ body {
   margin-right: auto;
 
   height: 40px;
-  max-width: 165px;
+  width: 165px;
 }
 
 .modal-send-btn:hover,
