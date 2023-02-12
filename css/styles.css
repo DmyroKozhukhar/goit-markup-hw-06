@@ -689,9 +689,7 @@ body {
 .form-field.textarea {
   margin-bottom: 16px;
 }
-.modal-icons {
-  fill: var(--modal-icons-fill);
-}
+
 .form-field-label {
   color: var(--form-field-label-color);
   margin-bottom: 4px;
@@ -736,7 +734,8 @@ body {
 .modal-icons {
   position: absolute;
   left: 16px;
-  top: 32px;
+  top: 26px;
+  fill: var(--modal-icons-fill);
   transition-property: fill;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
@@ -818,18 +817,13 @@ body {
   margin-right: 0;
   margin-left: auto;
 }
-.footer-form {
-  position: relative;
-  display: flex;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-top: 40px;
-}
+
 .media-paragraph.label {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
+  margin-bottom: 16px;
+}
+.subscribe-add-cont {
+  display: flex;
 }
 .footer-mail-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
