@@ -229,7 +229,7 @@ body {
     ),
     url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   max-width: 1440px;
   max-height: 600px;
@@ -695,6 +695,9 @@ body {
 .form-field-label {
   color: var(--form-field-label-color);
   margin-bottom: 4px;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  line-height: 1.16;
 }
 .comment {
   width: 360px;
